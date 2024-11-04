@@ -1,0 +1,15 @@
+{
+  "name": "simastok",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": " npx tailwindcss -i ./src/css/tailwind.css -o ./luar/css/tailwind.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.14"
+  }
+}
