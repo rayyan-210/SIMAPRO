@@ -7,7 +7,7 @@
     <title>SIMASTOK</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="css/tailwind.css">
-    <script src="SIMASTOK.js" defer></script>
+    <script src="js\SIMASTOK.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 
@@ -39,15 +39,15 @@
     <!--navbar-->
 
     <!--action-->
-    
+
     <div class="flex justify-center items-center mt-16 ">
         <div
             class="bg-slate-100  rounded-lg p-8 max-w-xl w-full flex flex-row mx-auto items-center">
             <div class="flex justify-center items-center mb-4 mr-8">
-                <img src="contoh.png" alt="Deskripsi Gambar" class="object-fill">
+                <img src="AsetFoto/promosi/contoh.png" alt="Deskripsi Gambar" class="object-fill">
             </div>
             <div class="flex space-x-8 mt-4">
-                <button class="flex flex-col items-center text-black hover:text-red-500"onclick="showAlert()">
+                <button class="flex flex-col items-center text-black hover:text-red-500" onclick="showAlert()">
                     <i class='bx bx-trash'></i>
                     <span>Delete Image</span>
                 </button>
@@ -61,12 +61,12 @@
 
     <div class="flex justify-center items-center mt-16 ">
         <div
-        class="bg-slate-100  rounded-lg p-8 max-w-xl w-full flex flex-row mx-auto items-center">
+            class="bg-slate-100  rounded-lg p-8 max-w-xl w-full flex flex-row mx-auto items-center">
             <div class="flex justify-center items-center mb-4 mr-8">
-                <img src="contoh.png" alt="Deskripsi Gambar" class="object-fill">
+                <img src="AsetFoto/promosi/contoh.png" alt="Deskripsi Gambar" class="object-fill">
             </div>
             <div class="flex space-x-8 mt-4">
-                <button class="flex flex-col items-center text-black hover:text-red-500"onclick="showAlert()">
+                <button class="flex flex-col items-center text-black hover:text-red-500" onclick="showAlert()">
                     <i class='bx bx-trash'></i>
                     <span>Delete Image</span>
                 </button>
@@ -80,9 +80,9 @@
 
     <div class="flex justify-center items-center mt-16 ">
         <div
-        class="bg-slate-100  rounded-lg p-8 max-w-xl w-full flex flex-row mx-auto items-center">
+            class="bg-slate-100  rounded-lg p-8 max-w-xl w-full flex flex-row mx-auto items-center">
             <div class="flex justify-center items-center mb-4 mr-8">
-                <img src="noimage.png" alt="Deskripsi Gambar" class="object-fill">
+                <img src="AsetFoto\promosi\noimage.png" alt="Deskripsi Gambar" class="object-fill">
             </div>
             <div class="flex space-x-8 mt-4">
                 <button class="flex flex-col items-center text-black hover:text-red-500">
@@ -96,6 +96,7 @@
             </div>
         </div>
     </div>
-   <body>
+
+    <body>
 
 </html>

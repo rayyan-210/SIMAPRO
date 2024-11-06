@@ -9,7 +9,7 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link rel="stylesheet" href="css/tailwind.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="SIMASTOK.js"></script>
+    <script src="js\SIMASTOK.js"></script>
 </head>
 
 <body>

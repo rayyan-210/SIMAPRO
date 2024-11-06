@@ -7,7 +7,7 @@
     <title>SIMASTOK</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="css/tailwind.css">
-    <script src="SIMASTOK.js" defer></script>
+    <script src="js\SIMASTOK.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 
@@ -38,16 +38,16 @@
 
             <!-- Upload Section -->
             <div class="relative flex flex-col items-center justify-center border-2 border-dashed border-gray-400 bg-gray-200 rounded-lg h-36 cursor-pointer">
-                <div class="text-4xl">⬆️</div> 
+                <div class="text-4xl">⬆️</div>
                 <button
-                class="absolute bg-red-600 text-white rounded-full px-3 py-1 transform translate-y-24"
-                onclick="window.location.href='admin_catalog_input.php'">+
-           </div>
+                    class="absolute bg-red-600 text-white rounded-full px-3 py-1 transform translate-y-24"
+                    onclick="window.location.href='admin_catalog_input.php'">+</button>
+            </div>
 
             <!-- Product Card -->
             <div class="flex flex-col items-center">
                 <div class="bg-white rounded-lg overflow-hidden shadow-md">
-                    <img src="kmpmt1.png" alt="Product Image" class="w-full h-36 object-cover">
+                    <img src="AsetFoto/Catalog/kmp4mt.png" alt="Product Image" class="w-full h-36 object-cover">
                 </div>
                 <div class="flex space-x-2 mt-2">
                     <button class="bg-red-600 text-white p-2 rounded-md hover:bg-red-700">
@@ -64,7 +64,7 @@
             <!-- Duplicate Product Cards -->
             <div class="flex flex-col items-center">
                 <div class="bg-white rounded-lg overflow-hidden shadow-md">
-                    <img src="kmp4mt.png" alt="Product Image" class="w-full h-36 object-cover">
+                    <img src="AsetFoto/Catalog/kmpmt1.png" alt="Product " class="w-full h-36 object-cover">
                 </div>
                 <div class="flex space-x-2 mt-2">
                     <button class="bg-red-600 text-white p-2 rounded-md hover:bg-red-700">
@@ -80,7 +80,41 @@
 
             <div class="flex flex-col items-center">
                 <div class="bg-white rounded-lg overflow-hidden shadow-md">
-                    <img src="kmpmt1.png" alt="Product Image" class="w-full h-36 object-cover">
+                    <img src="AsetFoto/Catalog/kmp4mt.png" alt="Product Image" class="w-full h-36 object-cover">
+                </div>
+                <div class="flex space-x-2 mt-2">
+                    <button class="bg-red-600 text-white p-2 rounded-md hover:bg-red-700">
+                        ✏️
+                    </button>
+                    <button
+                        class="bg-red-600 text-white p-2 rounded-md hover:bg-red-700"
+                        onclick="showAlert()">
+                        🗑️
+                    </button>
+                </div>
+            </div>
+
+
+            <div class="flex flex-col items-center">
+                <div class="bg-white rounded-lg overflow-hidden shadow-md">
+                    <img src="AsetFoto/Catalog/kmpmt1.png" alt="Product " class="w-full h-36 object-cover">
+                </div>
+                <div class="flex space-x-2 mt-2">
+                    <button class="bg-red-600 text-white p-2 rounded-md hover:bg-red-700">
+                        ✏️
+                    </button>
+                    <button
+                        class="bg-red-600 text-white p-2 rounded-md hover:bg-red-700"
+                        onclick="showAlert()">
+                        🗑️
+                    </button>
+                </div>
+            </div>
+
+
+            <div class="flex flex-col items-center">
+                <div class="bg-white rounded-lg overflow-hidden shadow-md">
+                    <img src="AsetFoto/Catalog/kmp4mt.png" alt="Product Image" class="w-full h-36 object-cover">
                 </div>
                 <div class="flex space-x-2 mt-2">
                     <button class="bg-red-600 text-white p-2 rounded-md hover:bg-red-700">
@@ -96,7 +130,7 @@
 
             <div class="flex flex-col items-center">
                 <div class="bg-white rounded-lg overflow-hidden shadow-md">
-                    <img src="kmpmt1.png" alt="Product Image" class="w-full h-36 object-cover">
+                    <img src="AsetFoto/Catalog/kmp4mt.png" alt="Product Image" class="w-full h-36 object-cover">
                 </div>
                 <div class="flex space-x-2 mt-2">
                     <button class="bg-red-600 text-white p-2 rounded-md hover:bg-red-700">
@@ -112,7 +146,7 @@
 
             <div class="flex flex-col items-center">
                 <div class="bg-white rounded-lg overflow-hidden shadow-md">
-                    <img src="kmpmt1.png" alt="Product Image" class="w-full h-36 object-cover">
+                    <img src="AsetFoto/Catalog/kmp4mt.png" alt="Product Image" class="w-full h-36 object-cover">
                 </div>
                 <div class="flex space-x-2 mt-2">
                     <button class="bg-red-600 text-white p-2 rounded-md hover:bg-red-700">
@@ -126,103 +160,6 @@
                 </div>
             </div>
 
-            <div class="flex flex-col items-center">
-                <div class="bg-white rounded-lg overflow-hidden shadow-md">
-                    <img src="kmpmt1.png" alt="Product Image" class="w-full h-36 object-cover">
-                </div>
-                <div class="flex space-x-2 mt-2">
-                    <button class="bg-red-600 text-white p-2 rounded-md hover:bg-red-700">
-                        ✏️
-                    </button>
-                    <button
-                        class="bg-red-600 text-white p-2 rounded-md hover:bg-red-700"
-                        onclick="showAlert()">
-                        🗑️
-                    </button>
-                </div>
-            </div>
-
-            <div class="flex flex-col items-center">
-                <div class="bg-white rounded-lg overflow-hidden shadow-md">
-                    <img src="kmpmt1.png" alt="Product Image" class="w-full h-36 object-cover">
-                </div>
-                <div class="flex space-x-2 mt-2">
-                    <button class="bg-red-600 text-white p-2 rounded-md hover:bg-red-700">
-                        ✏️
-                    </button>
-                    <button
-                        class="bg-red-600 text-white p-2 rounded-md hover:bg-red-700"
-                        onclick="showAlert()">
-                        🗑️
-                    </button>
-                </div>
-            </div>
-
-            <div class="flex flex-col items-center">
-                <div class="bg-white rounded-lg overflow-hidden shadow-md">
-                    <img src="kmpmt1.png" alt="Product Image" class="w-full h-36 object-cover">
-                </div>
-                <div class="flex space-x-2 mt-2">
-                    <button class="bg-red-600 text-white p-2 rounded-md hover:bg-red-700">
-                        ✏️
-                    </button>
-                    <button
-                        class="bg-red-600 text-white p-2 rounded-md hover:bg-red-700"
-                        onclick="showAlert()">
-                        🗑️
-                    </button>
-                </div>
-            </div>
-
-            <div class="flex flex-col items-center">
-                <div class="bg-white rounded-lg overflow-hidden shadow-md">
-                    <img src="kmpmt1.png" alt="Product Image" class="w-full h-36 object-cover">
-                </div>
-                <div class="flex space-x-2 mt-2">
-                    <button class="bg-red-600 text-white p-2 rounded-md hover:bg-red-700">
-                        ✏️
-                    </button>
-                    <button
-                        class="bg-red-600 text-white p-2 rounded-md hover:bg-red-700"
-                        onclick="showAlert()">
-                        🗑️
-                    </button>
-                </div>
-            </div>
-
-            <div class="flex flex-col items-center">
-                <div class="bg-white rounded-lg overflow-hidden shadow-md">
-                    <img src="kmpmt1.png" alt="Product Image" class="w-full h-36 object-cover">
-                </div>
-                <div class="flex space-x-2 mt-2">
-                    <button class="bg-red-600 text-white p-2 rounded-md hover:bg-red-700">
-                        ✏️
-                    </button>
-                    <button
-                        class="bg-red-600 text-white p-2 rounded-md hover:bg-red-700"
-                        onclick="showAlert()">
-                        🗑️
-                    </button>
-                </div>
-            </div>
-
-            <div class="flex flex-col items-center">
-                <div class="bg-white rounded-lg overflow-hidden shadow-md">
-                    <img src="kmpmt1.png" alt="Product Image" class="w-full h-36 object-cover">
-                </div>
-                <div class="flex space-x-2 mt-2">
-                    <button class="bg-red-600 text-white p-2 rounded-md hover:bg-red-700">
-                        ✏️
-                    </button>
-                    <button
-                        class="bg-red-600 text-white p-2 rounded-md hover:bg-red-700"
-                        onclick="showAlert()">
-                        🗑️
-                    </button>
-                </div>
-            </div>
-
-            
             <!-- Additional Product Cards as needed... -->
 
         </div>

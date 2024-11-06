@@ -8,7 +8,7 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="css/tailwind.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="SIMASTOK.js" defer></script>
+    <script src="js\SIMASTOK.js" defer></script>
 </head>
 
 <body>
